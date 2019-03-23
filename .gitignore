@@ -1,4 +1,4 @@
 .idea/
 node_modules/
-[Dd]ebug/*
-[Oo]bj/*
+[Dd]ebug/
+[Oo]bj/

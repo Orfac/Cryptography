@@ -1,8 +1,9 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crypto", "Crypto\Crypto.csproj", "{5130453E-E074-4175-9DDD-7D8DF52C2BBB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoConsoleApp", "CryptoConsoleApp\CryptoConsoleApp.csproj", "{28EE4CFC-9B78-4987-8F7B-B160EF6BF851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWeb", "CryptoWeb\CryptoWeb.csproj", "{DCB269A9-C71E-4756-9FEB-5DCE617726B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +19,9 @@ Global
 		{28EE4CFC-9B78-4987-8F7B-B160EF6BF851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28EE4CFC-9B78-4987-8F7B-B160EF6BF851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28EE4CFC-9B78-4987-8F7B-B160EF6BF851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB269A9-C71E-4756-9FEB-5DCE617726B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB269A9-C71E-4756-9FEB-5DCE617726B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB269A9-C71E-4756-9FEB-5DCE617726B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB269A9-C71E-4756-9FEB-5DCE617726B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -7,15 +7,6 @@ namespace Crypto
         public XOR()
         {
         }
-        
-        public byte[] Key { get; set; }
-        
-        public override byte[] Encrypt(byte[] data)
-        {
-            if (data == null) throw new ArgumentNullException();
-            if (Key == null) throw new NullReferenceException();
-            return Encrypt(data, Key);
-        }
 
         public override byte[] Encrypt(byte[] data, byte[] key)
         {
@@ -32,13 +23,6 @@ namespace Crypto
 
             return encryptedData;
 
-        }
-
-        public override byte[] Decrypt(byte[] encryptedData)
-        {
-            if (encryptedData == null) throw new ArgumentNullException();
-            if (Key == null) throw new NullReferenceException();
-            return Decrypt(encryptedData, Key);
         }
 
         public override byte[] Decrypt(byte[] encryptedData, byte[] key)

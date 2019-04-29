@@ -1,0 +1,20 @@
+{
+    "name": "cryptoweb",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.0",
+        "@babel/preset-env": "^7.4.2",
+        "@babel/preset-react": "^7.0.0",
+        "aspnet-webpack": "^3.0.0",
+        "babel-loader": "^8.0.5",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-middleware": "^3.6.1",
+        "webpack-hot-middleware": "^2.24.3"
+    }
+}
